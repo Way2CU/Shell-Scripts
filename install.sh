@@ -15,6 +15,8 @@ then
 fi
 
 # load company scripts
+touch ~/.bashrc
+
 if ! grep -Fxq "source ~/.way2cu/config/bashrc" ~/.bashrc
 then
 	echo "Configuring bash resource file..."
