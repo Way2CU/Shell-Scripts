@@ -15,8 +15,8 @@ then
 fi
 
 # load company scripts
-if ! grep -Fxq "source ~/.way2cu/bash.sh" ~/.bashrc
+if ! grep -Fxq "source ~/.way2cu/config/bashrc" ~/.bashrc
 then
 	echo "Configuring bash resource file..."
-	echo "source ~/.way2cu/bashrc" >> ~/.bashrc
+	echo "source ~/.way2cu/config/bashrc" >> ~/.bashrc
 fi
