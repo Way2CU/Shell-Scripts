@@ -2,5 +2,8 @@
 # aliases
 alias caracal_update='vagrant ssh -c "cd /var/www;sudo git pull origin"'
 alias caracal_init_modules='vagrant ssh -c "cd /var/www;sudo git submodule init;sudo git submodule update"'
+alias caracal_get_branch='vagrant ssh -c "cd /var/www;sudo git status"'
+alias caracal_checkout_release='vagrant ssh -c "cd /var/www;sudo git checkout release"'
+alias caracal_checkout_develop='vagrant ssh -c "cd /var/www;sudo git checkout develop"'
 alias cpass='PASSWORD_STORE_DIR=~/.password-store/Way2CU pass'
 alias optimize_jpeg_images='mogrify -path output/path -resize 900x900 -quality 80 -sampling-factor 4:2:0 -format jpeg *.jpg'
