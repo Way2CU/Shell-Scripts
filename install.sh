@@ -4,7 +4,7 @@
 if [ ! -d ~/.way2cu ]
 then
 	echo "Linking directory to home..."
-	ln -s `pwd` ~/.way2cu
+	ln -s "`pwd`" ~/.way2cu
 fi
 
 # clone credentials directory
